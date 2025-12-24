@@ -1,0 +1,12 @@
+[Project]
+name = "ispypackage"
+version = "0.1.0"
+description = "Finds the toplevel Python Package and its asoc. meta from anywhere in the package tree using python tree or git repo configurations"
+authors = ["hoefkensj <hoefkens.j@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
